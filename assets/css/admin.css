@@ -1,0 +1,127 @@
+
+
+.user-profiles-list-basic{
+    line-height: 1;
+    list-style:none;
+    text-align: center;
+    margin:0;
+    padding-top: 50px;
+    padding-left: 350px;
+    padding-right: 50px;
+}
+
+.user-profiles-list-basic li{
+    display: list-item;
+    box-sizing:border-box;
+    position: relative;
+
+    text-align:left;
+    font:normal 16px sans-serif;
+    padding: 15px 30px 15px 20px;
+    margin: 12px;
+
+    background-color:#f4f8fa;
+    border:1px solid #dbe3e7;
+    box-shadow: 0 2px 3px #dbe3e7;
+}
+
+.user-profiles-list-basic .user-avatar{
+    float: left;
+    width:100px;
+    text-align: left;
+}
+
+.user-profiles-list-basic .user-avatar img{
+    border-radius: 100%;
+    border:0;
+    height: 80px;
+}
+
+.user-profiles-list-basic p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    text-align: left;
+    margin-top: 20px;
+    max-width:600px;
+}
+
+.user-profiles-list-basic p a{
+    color:#5d6569;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.user-profiles-list-basic p span{
+    display: block;
+    font-size: 13px;
+    color:#808d93;
+    padding-top:4px;
+}
+
+.user-profiles-list-basic .delete{
+    background-color:#da1313;
+    border-color: #da1313;
+    border-radius: 10%;
+    color:#fff;
+    font-size:13px;
+    line-height: 22px;
+    width:70px;
+    height: 36px;
+    position: absolute;
+    top:37px;
+    right:34px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.user-profiles-list-basic .approve{
+    background-color:green;
+    border-color: green;
+    border-radius: 10%;
+    color:#fff;
+    font-size:13px;
+    line-height: 22px;
+    width:70px;
+    height: 36px;
+    position: absolute;
+    top:37px;
+    right:115px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.user-profiles-list-basic .download{
+    background-color:rgb(29, 113, 238);
+    border-color: rgb(29, 113, 238);
+    border-radius: 10%;
+    color:#fff;
+    font-size:13px;
+    line-height: 36px;
+    width:70px;
+    height: 36px;
+    position: absolute;
+    top:37px;
+    right: 200px;
+    text-align: center;
+    text-decoration: none;
+
+}
+/* Making the list responsive */
+
+@media (max-width: 400px) {
+
+    .user-profiles-list-basic li{
+        margin: 10px 0;
+    }
+
+    .user-profiles-list-basic .delete{
+        top: 10px;
+        right: 10px;
+    }
+
+}
+
